@@ -1,0 +1,38 @@
+# This file is what makes Skycart "pip-installable". It tells pip the
+# package's name, which folder holds the code, and what it depends on.
+#
+#   pip install git+https://github.com/ngoodroe/skycart.git            # anyone
+#   pip install -e .                                                  # you, while developing
+#
+# (-e means "editable": pip points at this folder instead of copying it, so
+# your code changes take effect immediately.)
+
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "skycart"
+version = "0.1.0"
+description = "A small Python client for Blackbaud's Raiser's Edge NXT SKY API, built for Jupyter notebooks."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+dependencies = [
+    "requests",
+    "python-dotenv",
+]
+keywords = ["blackbaud", "raisers edge", "sky api", "nonprofit", "jupyter"]
+
+[project.optional-dependencies]
+# pip install "skycart[pandas] @ git+https://github.com/ngoodroe/skycart.git"
+pandas = ["pandas"]
+# For running the tests: pip install -e ".[dev]"
+dev = ["pytest", "pandas"]
+
+[project.urls]
+Homepage = "https://minecartdata.com/skycart"
+Source = "https://github.com/ngoodroe/skycart"
+
+[tool.setuptools]
+packages = ["skycart"]

@@ -1,0 +1,17 @@
+# Credentials and saved logins -- never commit these.
+.env
+tokens.json
+.tokens.json
+
+# Python clutter
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.venv/
+.pytest_cache/
+
+# Jupyter / macOS clutter
+.ipynb_checkpoints/
+.DS_Store
