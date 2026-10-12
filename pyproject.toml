@@ -16,6 +16,7 @@ name = "skycart"
 version = "0.1.0"
 description = "A small Python client for Blackbaud's Raiser's Edge NXT SKY API, built for Jupyter notebooks."
 readme = "README.md"
+authors = [{ name = "Nathan Goodroe" }]
 license = { file = "LICENSE" }
 requires-python = ">=3.10"
 dependencies = [

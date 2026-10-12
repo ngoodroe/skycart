@@ -219,9 +219,10 @@ your own computer.
 
 ---
 
-Built by a nonprofit data person who got tired of not being able to get the
-data out. If you're working on something in Raiser's Edge and want help, or
-want to build something together, [get in touch](https://minecartdata.com/#contact).
+Built by [Nathan Goodroe](https://www.linkedin.com/in/nathan-goodroe/), a
+nonprofit data person who got tired of not being able to get the data out. If
+you're working on something in Raiser's Edge and want help, or want to build
+something together, [get in touch](https://minecartdata.com/#contact).
 
 Skycart isn't affiliated with or endorsed by Blackbaud. Raiser's Edge NXT and
 SKY API are Blackbaud trademarks. MIT licensed.
